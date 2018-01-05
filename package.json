@@ -1,0 +1,18 @@
+{
+  "name": "cucumber-test",
+  "version": "1.0.0",
+  "description": "To test using cucumber js and selenium webdriver",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/selenium-cucumber-js/index.js -s ./step-definations -x 50000"
+  },
+  "keywords": [
+    "cucumber"
+  ],
+  "author": "Kailash K Yogeshwar",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "selenium-cucumber-js": "^1.5.11"
+  }
+}

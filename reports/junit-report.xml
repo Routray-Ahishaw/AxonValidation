@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="create-a-process-and-validate-its-view;create-a-new-process-with-mandatory-fields" tests="6" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Automation/ProcessValidate/features/Process_Validate.feature">
+            </property>
+        </properties>
+        <testcase name="Given I open the site &quot;http://ms-axon-development.local:8888/&quot;" classname="create-a-process-and-validate-its-view;create-a-new-process-with-mandatory-fields" time="7.290513608">
+        </testcase>
+        <testcase name="And login by giving valid username and password" classname="create-a-process-and-validate-its-view;create-a-new-process-with-mandatory-fields" time="0.001190788">
+        </testcase>
+        <testcase name="Then I should see &quot;John Admin&quot; as the username" classname="create-a-process-and-validate-its-view;create-a-new-process-with-mandatory-fields" time="11.144753972">
+        </testcase>
+        <testcase name="When I click on &quot;Create&quot;, move to &quot;Business &amp; change&quot; and select the &quot;Process&quot; option" classname="create-a-process-and-validate-its-view;create-a-new-process-with-mandatory-fields" time="6.630627419">
+        </testcase>
+        <testcase name="Then I see &quot;New Process&quot; tab, Fill details, Save it" classname="create-a-process-and-validate-its-view;create-a-new-process-with-mandatory-fields" time="0.603181807">
+        </testcase>
+        <testcase name="And then I get the &quot;Edit&quot; option for the New Process" classname="create-a-process-and-validate-its-view;create-a-new-process-with-mandatory-fields" time="15.943053722">
+        </testcase>
+    </testsuite>
+    <testsuite name="create-a-process-and-validate-its-view;create-a-new-process,-specifying-only-the-timeperiod-for-duration" tests="6" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Automation/ProcessValidate/features/Process_Validate.feature">
+            </property>
+        </properties>
+        <testcase name="Given I open the site &quot;http://ms-axon-development.local:8888/&quot;" classname="create-a-process-and-validate-its-view;create-a-new-process,-specifying-only-the-timeperiod-for-duration" time="6.529021459">
+        </testcase>
+        <testcase name="And login by giving valid username and password" classname="create-a-process-and-validate-its-view;create-a-new-process,-specifying-only-the-timeperiod-for-duration" time="0.001370271">
+        </testcase>
+        <testcase name="Then I should see &quot;John Admin&quot; as the username" classname="create-a-process-and-validate-its-view;create-a-new-process,-specifying-only-the-timeperiod-for-duration" time="10.933449839">
+        </testcase>
+        <testcase name="When I go to page &quot;http://ms-axon-development.local:8888/process/new&quot;" classname="create-a-process-and-validate-its-view;create-a-new-process,-specifying-only-the-timeperiod-for-duration" time="10.721196811">
+        </testcase>
+        <testcase name="Then provide manadatory inputs with Duration as &quot;20&quot;" classname="create-a-process-and-validate-its-view;create-a-new-process,-specifying-only-the-timeperiod-for-duration" time="0.001264838">
+        </testcase>
+        <testcase name="Then I get the new process created with &quot;20&quot; in &apos;Duration&apos;" classname="create-a-process-and-validate-its-view;create-a-new-process,-specifying-only-the-timeperiod-for-duration" time="16.504301578">
+        </testcase>
+    </testsuite>
+    <testsuite name="create-a-process-and-validate-its-view;create-a-new-process,-specifying-only-the-hours/days-for-duration" tests="6" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Automation/ProcessValidate/features/Process_Validate.feature">
+            </property>
+        </properties>
+        <testcase name="Given I open the site &quot;http://ms-axon-development.local:8888/&quot;" classname="create-a-process-and-validate-its-view;create-a-new-process,-specifying-only-the-hours/days-for-duration" time="6.507310813">
+        </testcase>
+        <testcase name="And login by giving valid username and password" classname="create-a-process-and-validate-its-view;create-a-new-process,-specifying-only-the-hours/days-for-duration" time="0.001619571">
+        </testcase>
+        <testcase name="Then I should see &quot;John Admin&quot; as the username" classname="create-a-process-and-validate-its-view;create-a-new-process,-specifying-only-the-hours/days-for-duration" time="11.133275222">
+        </testcase>
+        <testcase name="When I go to link &quot;http://ms-axon-development.local:8888/process/new&quot;" classname="create-a-process-and-validate-its-view;create-a-new-process,-specifying-only-the-hours/days-for-duration" time="6.454716538">
+        </testcase>
+        <testcase name="Then provide manadatory inputs, select only Hours/Days as Duration" classname="create-a-process-and-validate-its-view;create-a-new-process,-specifying-only-the-hours/days-for-duration" time="0.002111472">
+        </testcase>
+        <testcase name="Then I get the Process saved with &quot;Not Specified&quot; text in &apos;Duration&apos;" classname="create-a-process-and-validate-its-view;create-a-new-process,-specifying-only-the-hours/days-for-duration" time="16.009898319">
+        </testcase>
+    </testsuite>
+    <testsuite name="create-a-process-and-validate-its-view;trying-to-create-a-new-process,-without-specifying-certain-mandatory-field" tests="6" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Automation/ProcessValidate/features/Process_Validate.feature">
+            </property>
+        </properties>
+        <testcase name="Given I open the site &quot;http://ms-axon-development.local:8888/&quot;" classname="create-a-process-and-validate-its-view;trying-to-create-a-new-process,-without-specifying-certain-mandatory-field" time="6.374723548">
+        </testcase>
+        <testcase name="And login by giving valid username and password" classname="create-a-process-and-validate-its-view;trying-to-create-a-new-process,-without-specifying-certain-mandatory-field" time="0.000996849">
+        </testcase>
+        <testcase name="Then I should see &quot;John Admin&quot; as the username" classname="create-a-process-and-validate-its-view;trying-to-create-a-new-process,-without-specifying-certain-mandatory-field" time="11.185387823">
+        </testcase>
+        <testcase name="When I visit the page &quot;http://ms-axon-development.local:8888/process/new&quot;" classname="create-a-process-and-validate-its-view;trying-to-create-a-new-process,-without-specifying-certain-mandatory-field" time="6.711566833">
+        </testcase>
+        <testcase name="Then I provide inputs, missing the &quot;Name&quot; field" classname="create-a-process-and-validate-its-view;trying-to-create-a-new-process,-without-specifying-certain-mandatory-field" time="0.00116399">
+        </testcase>
+        <testcase name="Then I get the alert message" classname="create-a-process-and-validate-its-view;trying-to-create-a-new-process,-without-specifying-certain-mandatory-field" time="5.286679953">
+        </testcase>
+    </testsuite>
+    <testsuite name="create-a-process-and-validate-its-view;verifying-admin-user-name-after-login" tests="4" failures="1" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Automation/ProcessValidate/features/Process_Validate.feature">
+            </property>
+        </properties>
+        <testcase name="Given I open the site &quot;http://ms-axon-development.local:8888/&quot;" classname="create-a-process-and-validate-its-view;verifying-admin-user-name-after-login" time="6.512279896">
+        </testcase>
+        <testcase name="And login by giving valid username and password" classname="create-a-process-and-validate-its-view;verifying-admin-user-name-after-login" time="0.001412938">
+        </testcase>
+        <testcase name="Then I should see &quot;John Admin&quot; as the username" classname="create-a-process-and-validate-its-view;verifying-admin-user-name-after-login" time="10.750559957">
+        </testcase>
+        <testcase name="Then I should see &quot;Welcome to Google&quot;" classname="create-a-process-and-validate-its-view;verifying-admin-user-name-after-login" time="50.000574414">
+            <failure message="function timed out after 50000 milliseconds">function timed out after 50000 milliseconds</failure>
+        </testcase>
+    </testsuite>
+</testsuites>
